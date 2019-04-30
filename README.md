@@ -1,5 +1,8 @@
 # Family Tree Boilerplate
 
+- The only two files you have to edit are `api/views.py` and `api/family_datastructure.py`
+- We have prepared a set of automated tests that will give you an idea if your code is done, run the tests by typing `$ pipenv run tests` on the command line.
+
 Today we are going to be building a small API around the following data-structure class:
 ```py
 class Family:
