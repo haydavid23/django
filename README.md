@@ -1,4 +1,6 @@
-# Family Tree Boilerplate
+# Family Tree Boilerplate for Django
+
+Carefully read the instructions for this exercise [here](https://projects.breatheco.de/d/family-static-api#readme).
 
 - The only two files you have to edit are `api/views.py` and `api/family_datastructure.py`
 - We have prepared a set of automated tests that will give you an idea if your code is done, run the tests by typing `$ pipenv run tests` on the command line.
