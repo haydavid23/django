@@ -17,7 +17,8 @@ Please copy the collowing key and paste it as the SECRET_KEY variable value on t
 
 Afterwards you need to run the following commands to start coding:
 
-- \033[94m$ pipenv run migrate\033[0m run migrations (if pending)
+- Carefully read the project instructions to make sure you understand what needs to be done
 - \033[94m$ pipenv run start\033[0m start django
+- \033[94m$ pipenv run tests\033[0m to run unit testing on the API
 
 """)

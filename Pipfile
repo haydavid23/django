@@ -15,10 +15,13 @@ djangorestframework = "*"
 pygraphviz = "*"
 django-extensions = "*"
 django-rest-swagger = "*"
+redgreenunittest = "*"
+yapf = "*"
 
 [dev-packages]
 
 [scripts]
 migrate= "python manage.py migrate"
 start= "python manage.py runserver $IP:$PORT"
-diagram= "python manage.py graph_models api -o diagram.png"
+tests= "python manage.py test api"
+prettier="yapf ./api --recursive"
