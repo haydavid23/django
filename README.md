@@ -1,33 +1,6 @@
-# Family Tree Boilerplate for Django
+# ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32) Family Tree Boilerplate for Django
 
-Carefully read the instructions for this exercise [here](https://projects.breatheco.de/d/family-static-api#readme).
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/breatheco-de/exercise-family-static-api.git)
 
-- The only two files you have to edit are `api/views.py` and `api/family_datastructure.py`
-- We have prepared a set of automated tests that will give you an idea if your code is done, run the tests by typing `$ pipenv run tests` on the command line.
-
-Today we are going to be building a small API around the following data-structure class:
-```py
-class Family:
-
-	def __init__(self, last_name):
-		self.last_name = last_name
-		self._members = []
-
-    def _generateId(self):
-        return randint(0, 99999999)
-
-	def add_member(self, member):
-		pass
-
-	def delete_member(self, id):
-		pass
-
-	def update_member(self, id, member):
-		pass
-
-	def get_member(self, id):
-		pass
-
-	def get_all_members(self, id):
-		return self._members;
-```
+This is the boilerplate and files needed to start coding BreatheCode's Famility Tree project in Django Framework.
+Carefully read the instructions for [this exercise here](https://projects.breatheco.de/d/family-static-api#readme).
